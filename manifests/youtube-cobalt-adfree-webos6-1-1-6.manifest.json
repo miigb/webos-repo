@@ -1,0 +1,15 @@
+{
+  "id": "youtube.leanback.v4",
+  "version": "1.1.6",
+  "type": "native",
+  "title": "YouTube Cobalt AdFree (webOS 6.0 v1.1.6 ARM)",
+  "appDescription": "Cobalt Native Ad-Free YouTube verified for webOS 6.5.3 / firmware 03.53.45 (UP77/C1/B1). Full account login, playlists, SponsorBlock, and NO 30s playback cutoff.",
+  "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_1.1.6_arm.png",
+  "sourceUrl": "https://github.com/miigb/webos-repo",
+  "rootRequired": false,
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_1.1.6_arm.ipk",
+  "ipkHash": {
+    "sha256": "30e2639678dd33555c113dec5887a03c4e40d460b9c85e5771255905be254f4c"
+  },
+  "ipkSize": 19617994
+}

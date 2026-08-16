@@ -15,17 +15,12 @@
       --text: #f3f4f6;
       --text-muted: #9ca3af;
       --accent: #e50914;
-      --accent-glow: rgba(229, 9, 20, 0.25);
       --primary: #3b82f6;
       --success: #10b981;
       --badge-bg: rgba(255, 255, 255, 0.06);
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -39,15 +34,9 @@
       background-attachment: fixed;
     }
 
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-    }
+    .container { max-width: 960px; margin: 0 auto; }
 
-    header {
-      text-align: center;
-      margin-bottom: 2.5rem;
-    }
+    header { text-align: center; margin-bottom: 2.5rem; }
 
     .logo-badge {
       display: inline-flex;
@@ -76,7 +65,7 @@
     p.subtitle {
       color: var(--text-muted);
       font-size: 1.05rem;
-      max-width: 580px;
+      max-width: 620px;
       margin: 0 auto;
       line-height: 1.6;
     }
@@ -137,10 +126,7 @@
       white-space: nowrap;
     }
 
-    .btn-copy:hover {
-      background: #1d4ed8;
-      transform: translateY(-1px);
-    }
+    .btn-copy:hover { background: #1d4ed8; transform: translateY(-1px); }
 
     .instructions {
       margin-top: 1rem;
@@ -149,14 +135,8 @@
       line-height: 1.5;
     }
 
-    .instructions ol {
-      margin-left: 1.25rem;
-      margin-top: 0.5rem;
-    }
-
-    .instructions li {
-      margin-bottom: 0.25rem;
-    }
+    .instructions ol { margin-left: 1.25rem; margin-top: 0.5rem; }
+    .instructions li { margin-bottom: 0.25rem; }
 
     .section-title {
       font-size: 1.35rem;
@@ -184,6 +164,12 @@
       display: flex;
       flex-direction: column;
       transition: all 0.25s ease;
+    }
+
+    .app-card-featured {
+      border-color: rgba(59, 130, 246, 0.4);
+      background: rgba(30, 42, 65, 0.8);
+      box-shadow: 0 0 25px rgba(59, 130, 246, 0.15);
     }
 
     .app-card:hover {
@@ -231,10 +217,10 @@
       border: 1px solid rgba(255, 255, 255, 0.05);
     }
 
-    .badge-latest {
-      background: rgba(16, 185, 129, 0.15);
+    .badge-recommended {
+      background: rgba(16, 185, 129, 0.2);
       color: #34d399;
-      border-color: rgba(16, 185, 129, 0.3);
+      border-color: rgba(16, 185, 129, 0.4);
     }
 
     .badge-cobalt {
@@ -265,10 +251,7 @@
       border-top: 1px solid rgba(255, 255, 255, 0.05);
     }
 
-    .file-size {
-      font-size: 0.75rem;
-      color: #6b7280;
-    }
+    .file-size { font-size: 0.75rem; color: #6b7280; }
 
     .btn-download {
       display: inline-flex;
@@ -278,13 +261,9 @@
       font-weight: 600;
       color: #60a5fa;
       text-decoration: none;
-      transition: color 0.2s;
     }
 
-    .btn-download:hover {
-      color: #93c5fd;
-      text-decoration: underline;
-    }
+    .btn-download:hover { color: #93c5fd; text-decoration: underline; }
 
     footer {
       text-align: center;
@@ -294,14 +273,8 @@
       padding-top: 2rem;
     }
 
-    footer a {
-      color: #9ca3af;
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      color: #fff;
-    }
+    footer a { color: #9ca3af; text-decoration: none; }
+    footer a:hover { color: #fff; }
   </style>
 </head>
 <body>
@@ -312,7 +285,7 @@
         <span>📺</span> webOS Homebrew Channel Repository
       </div>
       <h1>miigb webOS App Store</h1>
-      <p class="subtitle">Custom repository for LG webOS TV Homebrew Channel. Easily install ad-free YouTube and streaming tools directly on your TV.</p>
+      <p class="subtitle">Custom repository for LG webOS TVs. Optimized builds with full Account Login, Playlists & SponsorBlock.</p>
     </header>
 
     <div class="repo-banner">
@@ -325,114 +298,94 @@
       </div>
 
       <div class="instructions">
-        <strong>How to add to your LG TV:</strong>
+        <strong>How to install on LG 55UP7700 (webOS 6.0 / 03.53.45):</strong>
         <ol>
           <li>Open <strong>Homebrew Channel</strong> on your LG TV.</li>
-          <li>Click the <strong>Settings (⚙️)</strong> icon in the top right corner.</li>
-          <li>Scroll down to <strong>Repositories</strong> and select <strong>Add Repository</strong>.</li>
-          <li>Enter the URL above (or <code>https://miigb.github.io/webos-repo/api/apps.json</code>) and click <strong>Add</strong>.</li>
-          <li>Go back to the Main screen — your apps are now ready to install with 1-click!</li>
+          <li>Install <strong>YouTube Cobalt AdFree (webOS 6.0 v1.1.6)</strong>.</li>
+          <li>Log in with your primary Google account — all your playlists, history, and subs will work with NO 30s playback cutoff!</li>
         </ol>
       </div>
     </div>
 
     <div class="section-title">
-      <span>📦</span> Available Applications
+      <span>📦</span> Available Packages
     </div>
 
     <div class="apps-grid">
-      <!-- App 1: 0.8.2 webOS 22+ -->
-      <div class="app-card">
+      <!-- App 1: Cobalt 1.1.6 (RECOMMENDED FOR USER TV) -->
+      <div class="app-card app-card-featured">
         <div class="app-card-top">
-          <img class="app-icon" src="icons/youtube.leanback.v4_0.8.2_all_webOS22+.png" alt="YouTube AdFree webOS 22+">
+          <img class="app-icon" src="icons/youtube.leanback.v4_1.1.6_arm.png" alt="YouTube Cobalt v1.1.6">
           <div class="app-info">
-            <h3>YouTube AdFree</h3>
+            <h3>YouTube Cobalt AdFree</h3>
             <div class="badges">
-              <span class="badge badge-latest">v0.8.2 (Aug 2026)</span>
-              <span class="badge badge-arm">webOS 22+ / 23</span>
+              <span class="badge badge-recommended">★ Recommended for UP77 / C1</span>
+              <span class="badge badge-cobalt">v1.1.6</span>
+              <span class="badge badge-arm">webOS 6.0</span>
             </div>
           </div>
         </div>
-        <p class="app-desc">Latest build with SponsorBlock, Return Dislike, memory optimizations, and fast seek support for LG webOS 22+ (2022+ TVs).</p>
+        <p class="app-desc"><strong>Fixes the 30-50s error for logged-in accounts!</strong> Native Cobalt build verified on webOS 6.5.3 / firmware 03.53.45. Full playlist sync, account login, Auto-Login, and SponsorBlock.</p>
         <div class="app-actions">
-          <span class="file-size">85 KB</span>
-          <a class="btn-download" href="packages/youtube.leanback.v4_0.8.2_all_webOS22+.ipk" download>Download .ipk ↓</a>
+          <span class="file-size">18.7 MB</span>
+          <a class="btn-download" href="packages/youtube.leanback.v4_1.1.6_arm.ipk" download>Download .ipk ↓</a>
         </div>
       </div>
 
-      <!-- App 2: 0.8.2 Universal -->
+      <!-- App 2: Universal 0.8.2 -->
       <div class="app-card">
         <div class="app-card-top">
           <img class="app-icon" src="icons/youtube.leanback.v4_0.8.2_all.png" alt="YouTube AdFree Universal">
           <div class="app-info">
-            <h3>YouTube AdFree</h3>
+            <h3>YouTube AdFree Web</h3>
             <div class="badges">
-              <span class="badge badge-latest">v0.8.2 (Aug 2026)</span>
-              <span class="badge">Universal</span>
+              <span class="badge">v0.8.2</span>
+              <span class="badge">Universal Web</span>
             </div>
           </div>
         </div>
-        <p class="app-desc">Latest universal release featuring SponsorBlock, Return Dislike, and CPU/memory optimizations across webOS 3.0 through 6.0.</p>
+        <p class="app-desc">Universal Web version with SponsorBlock and Return Dislike. Ideal for Guest Mode or unflagged secondary accounts.</p>
         <div class="app-actions">
           <span class="file-size">166 KB</span>
           <a class="btn-download" href="packages/youtube.leanback.v4_0.8.2_all.ipk" download>Download .ipk ↓</a>
         </div>
       </div>
 
-      <!-- App 3: 1.2.1 Cobalt Native -->
+      <!-- App 3: webOS 22+ 0.8.2 -->
       <div class="app-card">
         <div class="app-card-top">
-          <img class="app-icon" src="icons/youtube.leanback.v4_1.2.1_arm.png" alt="YouTube AdFree Cobalt">
+          <img class="app-icon" src="icons/youtube.leanback.v4_0.8.2_all_webOS22+.png" alt="YouTube AdFree webOS 22+">
           <div class="app-info">
-            <h3>YouTube AdFree</h3>
+            <h3>YouTube AdFree Web</h3>
             <div class="badges">
-              <span class="badge badge-cobalt">Cobalt v1.2.1</span>
-              <span class="badge badge-arm">ARM Native</span>
+              <span class="badge">v0.8.2</span>
+              <span class="badge badge-arm">webOS 22+ / 23</span>
             </div>
           </div>
         </div>
-        <p class="app-desc">Native Cobalt-based ad-free YouTube client with hardware acceleration and SponsorBlock for ARM webOS TVs.</p>
+        <p class="app-desc">Web app optimized specifically for 2022+ LG TVs running webOS 22+ (Chromium 87+ base).</p>
+        <div class="app-actions">
+          <span class="file-size">85 KB</span>
+          <a class="btn-download" href="packages/youtube.leanback.v4_0.8.2_all_webOS22+.ipk" download>Download .ipk ↓</a>
+        </div>
+      </div>
+
+      <!-- App 4: Cobalt 1.2.1 -->
+      <div class="app-card">
+        <div class="app-card-top">
+          <img class="app-icon" src="icons/youtube.leanback.v4_1.2.1_arm.png" alt="YouTube Cobalt v1.2.1">
+          <div class="app-info">
+            <h3>YouTube Cobalt AdFree</h3>
+            <div class="badges">
+              <span class="badge badge-cobalt">v1.2.1</span>
+              <span class="badge badge-arm">webOS 22+</span>
+            </div>
+          </div>
+        </div>
+        <p class="app-desc">Native Cobalt build targeting Starboard 13/14 for newer 2022-2023 webOS TVs.</p>
         <div class="app-actions">
           <span class="file-size">19.7 MB</span>
           <a class="btn-download" href="packages/youtube.leanback.v4_1.2.1_arm.ipk" download>Download .ipk ↓</a>
-        </div>
-      </div>
-
-      <!-- App 4: Cobalt 1.0.0 -->
-      <div class="app-card">
-        <div class="app-card-top">
-          <img class="app-icon" src="icons/com.cobalt.youtube.adfree_1.0.0_arm.png" alt="YouTube Cobalt">
-          <div class="app-info">
-            <h3>YouTube Cobalt</h3>
-            <div class="badges">
-              <span class="badge badge-cobalt">Cobalt v1.0.0</span>
-              <span class="badge badge-arm">ARM Native</span>
-            </div>
-          </div>
-        </div>
-        <p class="app-desc">Standalone Cobalt YouTube ad-free client build with native hardware acceleration on ARM architecture.</p>
-        <div class="app-actions">
-          <span class="file-size">41.6 MB</span>
-          <a class="btn-download" href="packages/com.cobalt.youtube.adfree_1.0.0_arm.ipk" download>Download .ipk ↓</a>
-        </div>
-      </div>
-
-      <!-- App 5: 0.5.3 Legacy -->
-      <div class="app-card">
-        <div class="app-card-top">
-          <img class="app-icon" src="icons/youtube.leanback.v4_0.5.3_all.png" alt="YouTube AdFree Legacy">
-          <div class="app-info">
-            <h3>YouTube AdFree</h3>
-            <div class="badges">
-              <span class="badge">v0.5.3</span>
-              <span class="badge">Legacy</span>
-            </div>
-          </div>
-        </div>
-        <p class="app-desc">Legacy build of YouTube AdFree for compatibility with older webOS TV firmware versions.</p>
-        <div class="app-actions">
-          <span class="file-size">480 KB</span>
-          <a class="btn-download" href="packages/youtube.leanback.v4_0.5.3_all.ipk" download>Download .ipk ↓</a>
         </div>
       </div>
     </div>
