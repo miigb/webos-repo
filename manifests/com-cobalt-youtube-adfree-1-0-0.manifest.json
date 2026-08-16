@@ -1,0 +1,15 @@
+{
+  "id": "com.cobalt.youtube.adfree",
+  "version": "1.0.0",
+  "type": "native",
+  "title": "YouTube Cobalt AdFree (v1.0.0 ARM)",
+  "appDescription": "Native Cobalt YouTube AdFree application for ARM LG webOS TVs.",
+  "iconUri": "https://miigb.github.io/webos-repo/icons/com.cobalt.youtube.adfree_1.0.0_arm.png",
+  "sourceUrl": "https://github.com/miigb/webos-repo",
+  "rootRequired": false,
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.cobalt.youtube.adfree_1.0.0_arm.ipk",
+  "ipkHash": {
+    "sha256": "1e7bb33ff3c0cc7f475101a713dcc82e0494a56bfa5e8885ff1381fee4232bd7"
+  },
+  "ipkSize": 41553158
+}

@@ -1,0 +1,15 @@
+{
+  "id": "youtube.leanback.v4",
+  "version": "0.5.3",
+  "type": "web",
+  "title": "YouTube AdFree (Legacy v0.5.3)",
+  "appDescription": "Ad-free YouTube web app legacy edition for older webOS versions.",
+  "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.5.3_all.png",
+  "sourceUrl": "https://github.com/miigb/webos-repo",
+  "rootRequired": false,
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_0.5.3_all.ipk",
+  "ipkHash": {
+    "sha256": "9c4f1dd0b04fd712adb6a9a1c5838da49b1003cd96de8354c10467b52d73259d"
+  },
+  "ipkSize": 479722
+}
