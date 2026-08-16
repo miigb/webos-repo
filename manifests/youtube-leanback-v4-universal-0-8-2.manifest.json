@@ -1,0 +1,15 @@
+{
+  "id": "youtube.leanback.v4",
+  "version": "0.8.2",
+  "type": "web",
+  "title": "YouTube AdFree (Universal v0.8.2)",
+  "appDescription": "Latest ad-free YouTube universal release (August 2026) with SponsorBlock and Return YouTube Dislike for webOS 3.0-6.0 TVs.",
+  "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.2_all.png",
+  "sourceUrl": "https://github.com/miigb/webos-repo",
+  "rootRequired": false,
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_0.8.2_all.ipk",
+  "ipkHash": {
+    "sha256": "4010499f4d489db05ab438ea847dbe003cb77841baca4c66eb860f64a7274fd1"
+  },
+  "ipkSize": 165952
+}

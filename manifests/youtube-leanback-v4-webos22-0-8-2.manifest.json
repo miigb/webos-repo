@@ -1,0 +1,15 @@
+{
+  "id": "youtube.leanback.v4",
+  "version": "0.8.2",
+  "type": "web",
+  "title": "YouTube AdFree (webOS 22+ v0.8.2)",
+  "appDescription": "Latest ad-free YouTube release (August 2026) with SponsorBlock, Return Dislike, and optimizations for LG webOS 22+ (webOS 7.0+).",
+  "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.2_all_webOS22+.png",
+  "sourceUrl": "https://github.com/miigb/webos-repo",
+  "rootRequired": false,
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_0.8.2_all_webOS22+.ipk",
+  "ipkHash": {
+    "sha256": "de3cca999eaa6380ab5cfa8e4ac211568e20d57869f1e824b987bd0d66c57be4"
+  },
+  "ipkSize": 84842
+}

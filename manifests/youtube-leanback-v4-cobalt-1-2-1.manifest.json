@@ -3,7 +3,7 @@
   "version": "1.2.1",
   "type": "native",
   "title": "YouTube AdFree (Cobalt Native v1.2.1 ARM)",
-  "appDescription": "Ad-free YouTube client with SponsorBlock based on native Cobalt for ARM webOS devices.",
+  "appDescription": "Ad-free YouTube client with SponsorBlock based on native Cobalt runtime for ARM webOS devices.",
   "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_1.2.1_arm.png",
   "sourceUrl": "https://github.com/miigb/webos-repo",
   "rootRequired": false,

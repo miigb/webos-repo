@@ -9,6 +9,58 @@
   },
   "packages": [
     {
+      "id": "youtube-leanback-v4-webos22-0-8-2",
+      "title": "YouTube AdFree (webOS 22+ v0.8.2)",
+      "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.2_all_webOS22+.png",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/youtube-leanback-v4-webos22-0-8-2.manifest.json",
+      "manifest": {
+        "id": "youtube.leanback.v4",
+        "version": "0.8.2",
+        "type": "web",
+        "title": "YouTube AdFree (webOS 22+ v0.8.2)",
+        "appDescription": "Latest ad-free YouTube release (August 2026) with SponsorBlock, Return Dislike, and optimizations for LG webOS 22+ (webOS 7.0+).",
+        "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.2_all_webOS22+.png",
+        "sourceUrl": "https://github.com/miigb/webos-repo",
+        "rootRequired": false,
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_0.8.2_all_webOS22+.ipk",
+        "ipkHash": {
+          "sha256": "de3cca999eaa6380ab5cfa8e4ac211568e20d57869f1e824b987bd0d66c57be4"
+        },
+        "ipkSize": 84842
+      },
+      "pool": "main",
+      "shortDescription": "Latest YouTube AdFree for webOS 22+ (v0.8.2)",
+      "requirements": {
+        "webosRelease": ">=7.0"
+      }
+    },
+    {
+      "id": "youtube-leanback-v4-universal-0-8-2",
+      "title": "YouTube AdFree (Universal v0.8.2)",
+      "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.2_all.png",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/youtube-leanback-v4-universal-0-8-2.manifest.json",
+      "manifest": {
+        "id": "youtube.leanback.v4",
+        "version": "0.8.2",
+        "type": "web",
+        "title": "YouTube AdFree (Universal v0.8.2)",
+        "appDescription": "Latest ad-free YouTube universal release (August 2026) with SponsorBlock and Return YouTube Dislike for webOS 3.0-6.0 TVs.",
+        "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.2_all.png",
+        "sourceUrl": "https://github.com/miigb/webos-repo",
+        "rootRequired": false,
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_0.8.2_all.ipk",
+        "ipkHash": {
+          "sha256": "4010499f4d489db05ab438ea847dbe003cb77841baca4c66eb860f64a7274fd1"
+        },
+        "ipkSize": 165952
+      },
+      "pool": "main",
+      "shortDescription": "Latest YouTube AdFree Universal v0.8.2",
+      "requirements": {
+        "webosRelease": ">=3.0"
+      }
+    },
+    {
       "id": "youtube-leanback-v4-cobalt-1-2-1",
       "title": "YouTube AdFree (Cobalt Native v1.2.1 ARM)",
       "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_1.2.1_arm.png",
@@ -18,7 +70,7 @@
         "version": "1.2.1",
         "type": "native",
         "title": "YouTube AdFree (Cobalt Native v1.2.1 ARM)",
-        "appDescription": "Ad-free YouTube client with SponsorBlock based on native Cobalt for ARM webOS devices.",
+        "appDescription": "Ad-free YouTube client with SponsorBlock based on native Cobalt runtime for ARM webOS devices.",
         "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_1.2.1_arm.png",
         "sourceUrl": "https://github.com/miigb/webos-repo",
         "rootRequired": false,
@@ -58,58 +110,6 @@
       "shortDescription": "YouTube Cobalt AdFree v1.0.0",
       "requirements": {
         "webosRelease": ">=3.5"
-      }
-    },
-    {
-      "id": "youtube-leanback-v4-webos22-0-8-1",
-      "title": "YouTube AdFree (webOS 22+ v0.8.1)",
-      "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.1_all_webOS22+.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/youtube-leanback-v4-webos22-0-8-1.manifest.json",
-      "manifest": {
-        "id": "youtube.leanback.v4",
-        "version": "0.8.1-webos22",
-        "type": "web",
-        "title": "YouTube AdFree (webOS 22+ v0.8.1)",
-        "appDescription": "Ad-free YouTube web app optimized for newer LG webOS 22+ (webOS 7.0+) TVs.",
-        "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.1_all_webOS22+.png",
-        "sourceUrl": "https://github.com/miigb/webos-repo",
-        "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_0.8.1_all_webOS22+.ipk",
-        "ipkHash": {
-          "sha256": "ca73e6484f979c2618983295c7e300b4804e80ed8d6c7127fd042311eb05ce4e"
-        },
-        "ipkSize": 70758
-      },
-      "pool": "main",
-      "shortDescription": "YouTube AdFree for webOS 22+ (2022+ TVs)",
-      "requirements": {
-        "webosRelease": ">=7.0"
-      }
-    },
-    {
-      "id": "youtube-leanback-v4-universal-0-8-1",
-      "title": "YouTube AdFree (Universal v0.8.1)",
-      "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.1_all.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/youtube-leanback-v4-universal-0-8-1.manifest.json",
-      "manifest": {
-        "id": "youtube.leanback.v4",
-        "version": "0.8.1",
-        "type": "web",
-        "title": "YouTube AdFree (Universal v0.8.1)",
-        "appDescription": "Ad-free YouTube web app with SponsorBlock for webOS.",
-        "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.1_all.png",
-        "sourceUrl": "https://github.com/miigb/webos-repo",
-        "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_0.8.1_all.ipk",
-        "ipkHash": {
-          "sha256": "cd46058063b100e8d00e9d44839517d38f8a39c59670f551d7a919cf5162349e"
-        },
-        "ipkSize": 159820
-      },
-      "pool": "main",
-      "shortDescription": "YouTube AdFree Universal v0.8.1",
-      "requirements": {
-        "webosRelease": ">=3.0"
       }
     },
     {

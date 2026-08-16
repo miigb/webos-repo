@@ -19,13 +19,13 @@ Custom repository for LG Smart TVs running webOS with **Homebrew Channel**.
 
 ## 📦 Included Packages
 
-| App | Version | Architecture / Target | Size |
-| :--- | :--- | :--- | :--- |
-| **YouTube AdFree (Cobalt Native)** | `1.2.1` | ARM Native (Fastest) | 19.7 MB |
-| **YouTube Cobalt AdFree** | `1.0.0` | ARM Native | 41.6 MB |
-| **YouTube AdFree (webOS 22+)** | `0.8.1` | webOS 22+ (2022+ TVs) | 70.8 KB |
-| **YouTube AdFree (Universal)** | `0.8.1` | webOS 3.0 – 6.0 | 159.8 KB |
-| **YouTube AdFree (Legacy)** | `0.5.3` | Legacy webOS | 479.7 KB |
+| App | Version | Architecture / Target | Release Date | Size |
+| :--- | :--- | :--- | :--- | :--- |
+| **YouTube AdFree (webOS 22+)** | `0.8.2` | webOS 22+ (2022+ TVs) | **Aug 12, 2026** | 84.8 KB |
+| **YouTube AdFree (Universal)** | `0.8.2` | webOS 3.0 – 6.0 | **Aug 12, 2026** | 166 KB |
+| **YouTube AdFree (Cobalt Native)** | `1.2.1` | ARM Native (Fastest) | Stable | 19.7 MB |
+| **YouTube Cobalt AdFree** | `1.0.0` | ARM Native | Stable | 41.6 MB |
+| **YouTube AdFree (Legacy)** | `0.5.3` | Legacy webOS | Fallback | 479.7 KB |
 
 ---
 
