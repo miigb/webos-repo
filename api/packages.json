@@ -1,13 +1,39 @@
 {
   "paging": {
     "page": 1,
-    "count": 4,
+    "count": 5,
     "maxPage": 1,
-    "itemsTotal": 4,
+    "itemsTotal": 5,
     "prevUrl": null,
     "nextUrl": null
   },
   "packages": [
+    {
+      "id": "com-doorbell-pip-1-0-0",
+      "title": "Doorbell PiP Overlay",
+      "iconUri": "https://miigb.github.io/webos-repo/icons/com.doorbell.pip.png",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/com-doorbell-pip-1-0-0.manifest.json",
+      "manifest": {
+        "id": "com.doorbell.pip",
+        "version": "1.0.0",
+        "type": "web",
+        "title": "Doorbell PiP Overlay",
+        "appDescription": "Floating Picture-in-Picture live doorbell camera overlay for LG webOS TV. Automatically displays camera stream when doorbell rings without interrupting current viewing.",
+        "iconUri": "https://miigb.github.io/webos-repo/icons/com.doorbell.pip.png",
+        "sourceUrl": "https://github.com/miigb/webos-repo",
+        "rootRequired": false,
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.doorbell.pip_1.0.0_all.ipk",
+        "ipkHash": {
+          "sha256": "4773d3a03747d321e6ebb40dee7ae3c838617263a1026c2ca5cc203ebfaa9d74"
+        },
+        "ipkSize": 637436
+      },
+      "pool": "main",
+      "shortDescription": "Picture-in-Picture floating live camera feed overlay for webOS",
+      "requirements": {
+        "webosRelease": ">=3.0"
+      }
+    },
     {
       "id": "youtube-cobalt-adfree-webos6-1-1-6",
       "title": "YouTube Cobalt AdFree (webOS 6.0 v1.1.6 ARM)",
