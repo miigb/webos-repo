@@ -1,0 +1,15 @@
+{
+  "id": "com.doorbell.pip",
+  "version": "1.0.8",
+  "type": "web",
+  "title": "Doorbell PiP Overlay",
+  "appDescription": "Floating Picture-in-Picture live doorbell and security camera overlay for LG webOS TV. Multi-camera support (Ring + 3x Eufy via native MP4/H.264 streams), HUD telemetry, and remote control navigation (Left/Right/1-4).",
+  "iconUri": "https://miigb.github.io/webos-repo/icons/com.doorbell.pip.png",
+  "sourceUrl": "https://github.com/miigb/webos-repo",
+  "rootRequired": false,
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.doorbell.pip_1.0.8_all.ipk",
+  "ipkHash": {
+    "sha256": "cc6f923b65e9a1adbe0bafcda10c4044e0fd45fcee476bc906dfa6c214b731d0"
+  },
+  "ipkSize": 97138
+}
