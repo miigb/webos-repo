@@ -1,9 +1,9 @@
 {
   "paging": {
     "page": 1,
-    "count": 5,
+    "count": 6,
     "maxPage": 1,
-    "itemsTotal": 5,
+    "itemsTotal": 6,
     "prevUrl": null,
     "nextUrl": null
   },
@@ -32,6 +32,32 @@
       "shortDescription": "Picture-in-Picture floating live camera feed overlay for webOS",
       "requirements": {
         "webosRelease": ">=3.0"
+      }
+    },
+    {
+      "id": "space-nuvio-webos-1-2-3",
+      "title": "Nuvio TV",
+      "iconUri": "https://miigb.github.io/webos-repo/icons/space.nuvio.webos.png",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/space-nuvio-webos-1-2-3.manifest.json",
+      "manifest": {
+        "id": "space.nuvio.webos",
+        "version": "1.2.3",
+        "type": "web",
+        "title": "Nuvio TV",
+        "appDescription": "Lightweight, native alternative to Kodi / Stremio for smart TVs. Bring your sources together in one TV library with full Stremio addon support.",
+        "iconUri": "https://miigb.github.io/webos-repo/icons/space.nuvio.webos.png",
+        "sourceUrl": "https://github.com/NuvioMedia/NuvioTVWebOS",
+        "rootRequired": false,
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/space.nuvio.webos_1.2.3_all.ipk",
+        "ipkHash": {
+          "sha256": "bce3af5d96ecf0207ddf40dd1a179142ad9fcb98304528ae2a55c27e91512bb0"
+        },
+        "ipkSize": 6879986
+      },
+      "pool": "main",
+      "shortDescription": "Lightweight media center & Stremio streaming for webOS",
+      "requirements": {
+        "webosRelease": ">=4.0"
       }
     },
     {

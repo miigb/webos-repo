@@ -1,0 +1,15 @@
+{
+  "id": "space.nuvio.webos",
+  "version": "1.2.3",
+  "type": "web",
+  "title": "Nuvio TV",
+  "appDescription": "Lightweight, native alternative to Kodi / Stremio for smart TVs. Bring your sources together in one TV library with full Stremio addon support.",
+  "iconUri": "https://miigb.github.io/webos-repo/icons/space.nuvio.webos.png",
+  "sourceUrl": "https://github.com/NuvioMedia/NuvioTVWebOS",
+  "rootRequired": false,
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/space.nuvio.webos_1.2.3_all.ipk",
+  "ipkHash": {
+    "sha256": "bce3af5d96ecf0207ddf40dd1a179142ad9fcb98304528ae2a55c27e91512bb0"
+  },
+  "ipkSize": 6879986
+}

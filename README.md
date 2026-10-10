@@ -26,6 +26,17 @@ Custom repository for LG Smart TVs running webOS with **Homebrew Channel**.
 | **YouTube AdFree (Cobalt Native)** | `1.2.1` | ARM Native (Fastest) | Stable | 19.7 MB |
 | **YouTube Cobalt AdFree** | `1.0.0` | ARM Native | Stable | 41.6 MB |
 | **YouTube AdFree (Legacy)** | `0.5.3` | Legacy webOS | Fallback | 479.7 KB |
+| **Doorbell PiP** | `1.1.0` | Universal webOS | Sep 7, 2026 | 98.2 KB |
+| **Lampa** | `2.3.0` | Universal webOS | Sep 21, 2026 | 6.4 MB |
+| **Nuvio TV** | `1.2.3` | Universal webOS | Oct 6, 2026 | 6.6 MB |
+
+---
+
+## ⚡ 1-Click Disaster Recovery
+
+If an LG firmware update or Developer Mode expiration ever clears your apps:
+- Double-click **`~/Desktop/Restore LG TV.command`** on your Mac.
+- Full details & troubleshooting: See **[LG TV Recovery Guide](file:///Users/miguelbrito/Development/DS218/webos-repo/LG_TV_RECOVERY_GUIDE.md)**.
 
 ---
 
