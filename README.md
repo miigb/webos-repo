@@ -29,15 +29,16 @@ Custom repository for LG Smart TVs running webOS with **Homebrew Channel**.
 | **Doorbell PiP** | `1.1.0` | Universal webOS | Sep 7, 2026 | 98.2 KB |
 | **Lampa** | `2.3.0` | Universal webOS | Sep 21, 2026 | 6.4 MB |
 | **Nuvio TV** | `1.2.3` | Universal webOS | Oct 6, 2026 | 6.6 MB |
-| **VortX TV** | `0.1.0` | Universal webOS | Oct 17, 2026 | 228.6 KB |
+| **VortX TV (Pre-Configured)** | `0.2.0` | Universal webOS (Chrome 79+ Transpiled, Stremio/NAS/Plex Baked-In) | Oct 17, 2026 | 243.1 KB |
 
 ---
 
-## ⚡ 1-Click Disaster Recovery
+## ⚡ 1-Click Disaster Recovery & Agent Guidelines
 
 If an LG firmware update or Developer Mode expiration ever clears your apps:
 - Double-click **`~/Desktop/Restore LG TV.command`** on your Mac.
 - Full details & troubleshooting: See **[LG TV Recovery Guide](file:///Users/miguelbrito/Development/DS218/webos-repo/LG_TV_RECOVERY_GUIDE.md)**.
+- AI Model Packaging & Chrome 79 Rules: See **[AGENTS.md](file:///Users/miguelbrito/Development/DS218/webos-repo/AGENTS.md)**.
 
 ---
 
