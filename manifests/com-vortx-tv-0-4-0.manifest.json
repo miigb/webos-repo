@@ -1,0 +1,15 @@
+{
+  "id": "com.vortx.tv",
+  "version": "0.4.0",
+  "type": "web",
+  "title": "VortX TV",
+  "appDescription": "Pre-configured 10-foot VortX TV app (Stremio Cloud, Synology NAS, Plex Library, 4-Lang Subtitles, Zero-Scrollbar TV Navigation)",
+  "iconUri": "https://miigb.github.io/webos-repo/icons/vortx.png",
+  "sourceUrl": "https://web.vortx.tv/",
+  "rootRequired": false,
+  "ipkUrl": "https://miigb.github.io/webos-repo/packages/com.vortx.tv_0.4.0_all.ipk",
+  "ipkHash": {
+    "sha256": "45c6ae3d2c7379d69441bc0215e037b9780cb5d98f2d4a1815231bb5d0d2bb65"
+  },
+  "ipkSize": 252776
+}

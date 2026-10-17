@@ -29,7 +29,7 @@ Custom repository for LG Smart TVs running webOS with **Homebrew Channel**.
 | **Doorbell PiP** | `1.1.0` | Universal webOS | Sep 7, 2026 | 98.2 KB |
 | **Lampa** | `2.3.0` | Universal webOS | Sep 21, 2026 | 6.4 MB |
 | **Nuvio TV** | `1.2.3` | Universal webOS | Oct 6, 2026 | 6.6 MB |
-| **VortX TV (Pre-Configured)** | `0.3.0` | Universal webOS (Chrome 79+ Transpiled, Stremio/NAS/Plex Baked-In) | Oct 17, 2026 | 243.1 KB |
+| **VortX TV (Pre-Configured)** | `0.4.0` | Universal webOS (Chrome 79+ Transpiled, Stremio/NAS/Plex Baked-In) | Oct 17, 2026 | 243.1 KB |
 
 ---
 
