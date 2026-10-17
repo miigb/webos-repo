@@ -45,6 +45,7 @@ All `.ipk` binaries are version-controlled and preserved in:
 | **YouTube AdFree** | `youtube.leanback.v4` | `0.8.2` | Ad-free YouTube player with SponsorBlock integration. |
 | **Doorbell PiP** | `com.doorbell.pip` | `1.1.0` | Picture-in-picture camera overlay from Home Assistant / Synology media stack. |
 | **Nuvio TV** | `space.nuvio.webos` | `1.2.3` | Lightweight, native media center & streaming library with Stremio add-on ecosystem. |
+| **VortX TV** | `com.vortx.tv` | `0.1.0` | Native 10-foot VortX TV streaming app with Debrid, HLS, and Synology DS218 Stremio Engine (`192.168.1.147:11470`) torrent support. |
 
 ---
 

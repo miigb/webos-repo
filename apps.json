@@ -1,13 +1,39 @@
 {
   "paging": {
     "page": 1,
-    "count": 6,
+    "count": 7,
     "maxPage": 1,
-    "itemsTotal": 6,
+    "itemsTotal": 7,
     "prevUrl": null,
     "nextUrl": null
   },
   "packages": [
+    {
+      "id": "com-vortx-tv-0-1-0",
+      "title": "VortX TV",
+      "iconUri": "https://miigb.github.io/webos-repo/icons/com.vortx.tv.png",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/com-vortx-tv-0-1-0.manifest.json",
+      "manifest": {
+        "id": "com.vortx.tv",
+        "version": "0.1.0",
+        "type": "web",
+        "title": "VortX TV",
+        "appDescription": "Watch your Stremio add-on catalogs on the big screen. Supports Direct, Debrid, HLS, and raw BitTorrent streaming via Synology DS218 Stremio Engine (192.168.1.147:11470).",
+        "iconUri": "https://miigb.github.io/webos-repo/icons/com.vortx.tv.png",
+        "sourceUrl": "https://github.com/VortXTV/VortX",
+        "rootRequired": false,
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.vortx.tv_0.1.0_all.ipk",
+        "ipkHash": {
+          "sha256": "3ab9ca905fc0ee058c1da8c5f034e6001c08c81f7d7856ecc5d05ff2f51a2047"
+        },
+        "ipkSize": 234082
+      },
+      "pool": "main",
+      "shortDescription": "VortX streaming client with DS218 Torrent Engine & Debrid support",
+      "requirements": {
+        "webosRelease": ">=4.0"
+      }
+    },
     {
       "id": "com-doorbell-pip-1-1-0",
       "title": "Doorbell PiP Overlay",
