@@ -31,9 +31,9 @@
 
 ---
 
-## 📦 2. VortX TV (`com.vortx.tv` `v0.2.0`) Pre-Configured Architecture
+## 📦 2. VortX TV (`com.vortx.tv` `v0.3.0`) Pre-Configured Architecture
 
-`com.vortx.tv` (`v0.2.0`) is pre-configured out of the box so the user never has to type settings on the TV remote:
+`com.vortx.tv` (`v0.3.0`) is pre-configured out of the box so the user never has to type settings on the TV remote:
 - **Streaming Server (`vortx.web.streamingServerUrl`)**: `http://192.168.1.147:11470` (Synology DS218 `rivulet-engine v0.27.1`).
 - **TV Layout Mode (`vortx.tv.force`)**: `"1"`.
 - **Pre-Seeded & Live-Synced Addons (`vortx.web.addons.v1`)**:

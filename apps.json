@@ -9,27 +9,27 @@
   },
   "packages": [
     {
-      "id": "com-vortx-tv-0-2-0",
+      "id": "com-vortx-tv-0-3-0",
       "title": "VortX TV",
       "iconUri": "https://miigb.github.io/webos-repo/icons/com.vortx.tv.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/com-vortx-tv-0-2-0.manifest.json",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/com-vortx-tv-0-3-0.manifest.json",
       "manifest": {
         "id": "com.vortx.tv",
-        "version": "0.2.0",
+        "version": "0.3.0",
         "type": "web",
         "title": "VortX TV",
-        "appDescription": "Pre-configured VortX Smart TV client for LG webOS 6.0+. Baked-in Stremio Cloud addons & Watch Progress, Synology DS218 NAS & Plex Library Direct Play (192.168.1.147:32400), NAS Stream Booster (192.168.1.147:8095), and Rivulet Torrent/HLS Engine (192.168.1.147:11470).",
+        "appDescription": "Pre-configured VortX Smart TV client for LG webOS 6.0+ (Chrome 79 layout & D-Pad spatial navigation overhaul). Baked-in Stremio Cloud addons & Watch Progress, Synology DS218 NAS & Plex Library Direct Play (192.168.1.147:32400), NAS Stream Booster (192.168.1.147:8095), and Rivulet Torrent/HLS Engine (192.168.1.147:11470).",
         "iconUri": "https://miigb.github.io/webos-repo/icons/com.vortx.tv.png",
         "sourceUrl": "https://github.com/VortXTV/VortX",
         "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.vortx.tv_0.2.0_all.ipk",
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.vortx.tv_0.3.0_all.ipk",
         "ipkHash": {
-          "sha256": "87cce767777fb6981b8566f195c07c62ad668f263af510e077c0118e49d41d10"
+          "sha256": "6c10ea662b46758fd4acd9b13dc7c47239ed13bff8958b96f2c2ae2d7f1264cb"
         },
-        "ipkSize": 248942
+        "ipkSize": 251158
       },
       "pool": "main",
-      "shortDescription": "Pre-configured VortX TV with Stremio Cloud, Synology NAS Plex & Booster",
+      "shortDescription": "Pre-configured VortX TV v0.3.0 (TV D-Pad Navigation + Stremio/NAS/Plex)",
       "requirements": {
         "webosRelease": ">=4.0"
       }
