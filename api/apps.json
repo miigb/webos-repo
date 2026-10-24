@@ -50,9 +50,9 @@
         "rootRequired": false,
         "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.doorbell.pip_1.1.0_all.ipk",
         "ipkHash": {
-          "sha256": "03e095127e529ed65981c4e548c5ace3a5d844cc612c6b8f431ec26e92d8905a"
+          "sha256": "eea828b7a33a38bd88cacbbe76917e445b4c572dd98a802957722a9ec1ff6183"
         },
-        "ipkSize": 98206
+        "ipkSize": 26874
       },
       "pool": "main",
       "shortDescription": "Picture-in-Picture floating live camera feed overlay for webOS",
