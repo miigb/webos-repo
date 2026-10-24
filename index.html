@@ -282,7 +282,7 @@
   <div class="container">
     <header>
       <div class="logo-badge">
-        <span>📺</span> webOS Homebrew Channel Repository
+        webOS Homebrew Channel Repository
       </div>
       <h1>miigb webOS App Store</h1>
       <p class="subtitle">Custom repository for LG webOS TVs. Optimized builds with full Account Login, Playlists & SponsorBlock.</p>
@@ -293,7 +293,7 @@
       <div class="url-box">
         <span class="url-text" id="repoUrl">https://miigb.github.io/webos-repo/</span>
         <button class="btn-copy" onclick="copyRepoUrl()">
-          <span id="copyIcon">📋</span> <span id="copyText">Copy URL</span>
+          <span id="copyText">Copy URL</span>
         </button>
       </div>
 
@@ -308,7 +308,7 @@
     </div>
 
     <div class="section-title">
-      <span>📦</span> Available Packages
+      Available Packages
     </div>
 
     <div class="apps-grid">
@@ -319,7 +319,7 @@
           <div class="app-info">
             <h3>YouTube Cobalt AdFree</h3>
             <div class="badges">
-              <span class="badge badge-recommended">★ Recommended for UP77 / C1</span>
+              <span class="badge badge-recommended">Recommended for UP77 / C1</span>
               <span class="badge badge-cobalt">v1.1.6</span>
               <span class="badge badge-arm">webOS 6.0</span>
             </div>
@@ -404,7 +404,7 @@
         <p class="app-desc">Lightweight, native alternative to Kodi / Stremio for smart TVs. Bring your sources together in one TV library with full Stremio addon support.</p>
         <div class="app-actions">
           <span class="file-size">6.6 MB</span>
-          <a class="btn-download" href="packages/space.nuvio.webos_1.2.3_all.ipk" download="NuvioTV-webOS-1.2.3.ipk">Download .ipk ↓</a>
+          <a class="btn-download" href="packages/space.nuvio.webos_1.2.3_all.ipk" download>Download .ipk ↓</a>
         </div>
       </div>
 
@@ -415,7 +415,7 @@
           <div class="app-info">
             <h3>VortX TV</h3>
             <div class="badges">
-              <span class="badge badge-recommended">★ DS218 Torrent Engine</span>
+              <span class="badge badge-recommended">DS218 Torrent Engine</span>
               <span class="badge">v0.4.0</span>
               <span class="badge badge-arm">Universal webOS</span>
             </div>
@@ -423,7 +423,7 @@
         </div>
         <p class="app-desc">Watch your Stremio add-on catalogs on the big screen with native 10-foot D-pad remote navigation. Plays Direct, Debrid, HLS, and raw BitTorrent streams via Synology DS218 Stremio Engine (<code>192.168.1.147:11470</code>).</p>
         <div class="app-actions">
-          <span class="file-size">229 KB</span>
+          <span class="file-size">249 KB</span>
           <a class="btn-download" href="packages/com.vortx.tv_0.4.0_all.ipk" download>Download .ipk ↓</a>
         </div>
       </div>
@@ -439,12 +439,9 @@
       const url = document.getElementById('repoUrl').innerText;
       navigator.clipboard.writeText(url).then(() => {
         const text = document.getElementById('copyText');
-        const icon = document.getElementById('copyIcon');
         text.innerText = 'Copied!';
-        icon.innerText = '✓';
         setTimeout(() => {
           text.innerText = 'Copy URL';
-          icon.innerText = '📋';
         }, 2000);
       });
     }

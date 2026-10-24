@@ -9,27 +9,27 @@
   },
   "packages": [
     {
-      "id": "com-vortx-tv-0-1-0",
+      "id": "com-vortx-tv-0-4-0",
       "title": "VortX TV",
       "iconUri": "https://miigb.github.io/webos-repo/icons/com.vortx.tv.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/com-vortx-tv-0-1-0.manifest.json",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/com-vortx-tv-0-4-0.manifest.json",
       "manifest": {
         "id": "com.vortx.tv",
-        "version": "0.1.0",
+        "version": "0.4.0",
         "type": "web",
         "title": "VortX TV",
-        "appDescription": "Watch your Stremio add-on catalogs on the big screen. Supports Direct, Debrid, HLS, and raw BitTorrent streaming via Synology DS218 Stremio Engine (192.168.1.147:11470).",
+        "appDescription": "Pre-configured VortX Smart TV client for LG webOS 6.0+ (Chrome 79 layout & D-Pad spatial navigation overhaul). Baked-in Stremio Cloud addons & Watch Progress, Synology DS218 NAS & Plex Library Direct Play (192.168.1.147:32400), NAS Stream Booster (192.168.1.147:8095), and Rivulet Torrent/HLS Engine (192.168.1.147:11470).",
         "iconUri": "https://miigb.github.io/webos-repo/icons/com.vortx.tv.png",
         "sourceUrl": "https://github.com/VortXTV/VortX",
         "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.vortx.tv_0.1.0_all.ipk",
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.vortx.tv_0.4.0_all.ipk",
         "ipkHash": {
-          "sha256": "3ab9ca905fc0ee058c1da8c5f034e6001c08c81f7d7856ecc5d05ff2f51a2047"
+          "sha256": "cbf356e0578d9703486c27dbec07b169f484766a02dcc05539d07e6c08dbb884"
         },
-        "ipkSize": 234082
+        "ipkSize": 254668
       },
       "pool": "main",
-      "shortDescription": "VortX streaming client with DS218 Torrent Engine & Debrid support",
+      "shortDescription": "Pre-configured VortX TV v0.4.0 (TV D-Pad Navigation + Stremio/NAS/Plex)",
       "requirements": {
         "webosRelease": ">=4.0"
       }

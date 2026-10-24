@@ -2,10 +2,10 @@
 
 Custom repository for LG Smart TVs running webOS with **Homebrew Channel**.
 
-## 📺 How to Add to Your LG TV
+## How to Add to Your LG TV
 
 1. Open **Homebrew Channel** on your LG TV.
-2. Click the **Settings (⚙️)** icon in the top right corner.
+2. Click the **Settings** icon in the top right corner.
 3. Scroll to **Repositories** and click **Add Repository**.
 4. Enter the URL:
    ```
@@ -17,23 +17,23 @@ Custom repository for LG Smart TVs running webOS with **Homebrew Channel**.
 
 ---
 
-## 📦 Included Packages
+## Included Packages
 
 | App | Version | Architecture / Target | Release Date | Size |
 | :--- | :--- | :--- | :--- | :--- |
 | **YouTube AdFree (webOS 22+)** | `0.8.2` | webOS 22+ (2022+ TVs) | **Aug 12, 2026** | 84.8 KB |
-| **YouTube AdFree (Universal)** | `0.8.2` | webOS 3.0 – 6.0 | **Aug 12, 2026** | 166 KB |
+| **YouTube AdFree (Universal)** | `0.8.2` | webOS 3.0 - 6.0 | **Aug 12, 2026** | 166 KB |
 | **YouTube AdFree (Cobalt Native)** | `1.2.1` | ARM Native (Fastest) | Stable | 19.7 MB |
 | **YouTube Cobalt AdFree** | `1.0.0` | ARM Native | Stable | 41.6 MB |
 | **YouTube AdFree (Legacy)** | `0.5.3` | Legacy webOS | Fallback | 479.7 KB |
 | **Doorbell PiP** | `1.1.0` | Universal webOS | Sep 7, 2026 | 98.2 KB |
 | **Lampa** | `2.3.0` | Universal webOS | Sep 21, 2026 | 6.4 MB |
 | **Nuvio TV** | `1.2.3` | Universal webOS | Oct 6, 2026 | 6.6 MB |
-| **VortX TV (Pre-Configured)** | `0.4.0` | Universal webOS (Chrome 79+ Transpiled, Stremio/NAS/Plex Baked-In) | Oct 17, 2026 | 243.1 KB |
+| **VortX TV (Pre-Configured)** | `0.4.0` | Universal webOS (Chrome 79+ Transpiled, Stremio/NAS/Plex Baked-In) | Oct 17, 2026 | 248.7 KB |
 
 ---
 
-## ⚡ 1-Click Disaster Recovery & Agent Guidelines
+## 1-Click Disaster Recovery & Agent Guidelines
 
 If an LG firmware update or Developer Mode expiration ever clears your apps:
 - Double-click **`~/Desktop/Restore LG TV.command`** on your Mac.
@@ -42,6 +42,6 @@ If an LG firmware update or Developer Mode expiration ever clears your apps:
 
 ---
 
-## 🌐 Live Web Preview
+## Live Web Preview
 
 Visit the web interface: **[https://miigb.github.io/webos-repo/](https://miigb.github.io/webos-repo/)**

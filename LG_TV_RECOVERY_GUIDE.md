@@ -1,10 +1,10 @@
-# 📺 LG TV webOS Homebrew & Disaster Recovery Guide
+# LG TV webOS Homebrew & Disaster Recovery Guide
 
 Comprehensive reference for managing, troubleshooting, and restoring homebrew applications and repositories on the LG Smart TV (**LG 55UP77006LB**, webOS 6.5.3 / firmware 03.53.45).
 
 ---
 
-## ⚡ Quick 1-Click Recovery
+## Quick 1-Click Recovery
 
 If a webOS system update or Developer Mode session expiration wipes your apps:
 
@@ -20,7 +20,7 @@ If a webOS system update or Developer Mode session expiration wipes your apps:
 
 ---
 
-## 🖥️ Target Device Specs
+## Target Device Specs
 
 | Property | Value |
 | :--- | :--- |
@@ -33,7 +33,7 @@ If a webOS system update or Developer Mode session expiration wipes your apps:
 
 ---
 
-## 📦 Installed Applications Catalog
+## Installed Applications Catalog
 
 All `.ipk` binaries are version-controlled and preserved in:
 `/Users/miguelbrito/Downloads/Software/webOS/` and `webos-repo/packages/`.
@@ -49,26 +49,26 @@ All `.ipk` binaries are version-controlled and preserved in:
 
 ---
 
-## 🌐 Configured Repositories
+## Configured Repositories
 
 1. **Official webOS Homebrew:**
    `https://repo.webosbrew.org/api/apps.json`
 2. **WebOS App Club (Lampa & TorrServer Repo):**
    `https://webosappclub.github.io`
-   *(Pre-baked into Homebrew Channel package; also manually addable via Settings ⚙️ $\rightarrow$ Add Repository)*
+   *(Pre-baked into Homebrew Channel package; also manually addable via Settings -> Add Repository)*
 3. **Personal DS218 Custom Repo:**
    `https://miigb.github.io/webos-repo/`
    *(Direct manifest: `https://miigb.github.io/webos-repo/api/apps.json`)*
 
 ---
 
-## 🔧 Under the Hood: Why Developer Mode Connections Fail & How We Fixed It
+## Under the Hood: Why Developer Mode Connections Fail & How We Fixed It
 
 ### 1. The "Failed to fetch private key" Error in webOS Dev Manager
 * **Root Cause:** The desktop app tries to fetch the RSA private key over HTTP from `http://<TV_IP>:9991/webos_rsa`. On macOS, TCP streaming/socket handling in the app frequently causes this request to time out or fail to parse.
 * **Fix:** The key is fetched directly via `curl` and decrypted with the passphrase:
   ```bash
-  curl -s "http://192.168.1.132:9991/webos_rsa" -o /tmp/webos_rsa_enc
+  curl -s "http://192.168.1.137:9991/webos_rsa" -o /tmp/webos_rsa_enc
   openssl rsa -in /tmp/webos_rsa_enc -passin "pass:<PASSPHRASE>" -traditional -out ~/.ssh/tv_webos
   chmod 600 ~/.ssh/tv_webos
   ```
@@ -79,7 +79,7 @@ All `.ipk` binaries are version-controlled and preserved in:
 * **Fix:** Configured in `~/.ssh/config`:
   ```ssh-config
   Host lg-tv
-    HostName 192.168.1.132
+    HostName 192.168.1.137
     Port 9922
     User prisoner
     IdentityFile ~/.ssh/tv_webos
@@ -89,7 +89,7 @@ All `.ipk` binaries are version-controlled and preserved in:
 
 ---
 
-## 🛠️ Useful Terminal Commands
+## Useful Terminal Commands
 
 ```bash
 # 1. Connect directly to TV shell
@@ -116,13 +116,13 @@ ares-launch --device tv --close org.webosbrew.hbchannel
 
 ---
 
-## 🔄 How to Use webOS Dev Manager GUI (Alternative)
+## How to Use webOS Dev Manager GUI (Alternative)
 
 If you ever prefer the graphical **webOS Dev Manager** desktop app:
 1. Open the app and click **Add Device** (or edit existing `tv`).
 2. Set:
    - **Name:** `tv`
-   - **Host:** `192.168.1.132`
+   - **Host:** `192.168.1.137`
    - **Port:** `9922`
    - **Username:** `prisoner`
    - **Authentication:** Switch from `Dev Mode` to **`SSH Key`** (or `Private Key`).

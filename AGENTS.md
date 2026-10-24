@@ -5,7 +5,7 @@
 
 ---
 
-## 🚨 1. Strict LG webOS 6.0 (`Chrome/79.0.3945.79`) Packaging Rules
+## 1. Strict LG webOS 6.0 (`Chrome/79.0.3945.79`) Packaging Rules
 
 1. **Never Use `<script type="module">` on `file://` Origins**:
    - Packaged webOS apps execute on `file:///media/developer/apps/usr/palm/applications/<app-id>/index.html`.
@@ -31,7 +31,7 @@
 
 ---
 
-## 📦 2. VortX TV (`com.vortx.tv` `v0.4.0`) Pre-Configured Architecture
+## 2. VortX TV (`com.vortx.tv` `v0.4.0`) Pre-Configured Architecture
 
 `com.vortx.tv` (`v0.4.0`) is pre-configured out of the box so the user never has to type settings on the TV remote:
 - **Streaming Server (`vortx.web.streamingServerUrl`)**: `http://192.168.1.147:11470` (Synology DS218 `rivulet-engine v0.27.1`).
@@ -39,15 +39,15 @@
 - **Pre-Seeded & Live-Synced Addons (`vortx.web.addons.v1`)**:
   - Synced automatically on startup from `http://192.168.1.147:8095/api/vortx/bootstrap`:
     1. `Cinemeta` (`https://v3-cinemeta.strem.io/manifest.json`)
-    2. `⭐ My IMDb Watchlist (LG TV Safe)` (`http://192.168.1.147:8095/stremio/imdb/manifest.json`)
-    3. `🏠 Synology NAS & Plex Library` (`http://192.168.1.147:8095/stremio/plex/manifest.json`)
+    2. `My IMDb Watchlist (LG TV Safe)` (`http://192.168.1.147:8095/stremio/imdb/manifest.json`)
+    3. `Synology NAS & Plex Library` (`http://192.168.1.147:8095/stremio/plex/manifest.json`)
     4. `IMDB Catalogs` (`https://1fe84bc728af-imdb-catalogs.baby-beamup.club/manifest.json`)
     5. `Anime Kitsu` (`https://anime-kitsu.strem.fun/manifest.json`)
-    6. `⚡ NAS Stream Booster (LG TV Safe)` (`http://192.168.1.147:8095/stremio/manifest.json`)
+    6. `NAS Stream Booster (LG TV Safe)` (`http://192.168.1.147:8095/stremio/manifest.json`)
     7. `Torrentio (LG TV Safe)`
     8. `TorrentsDB`
     9. `ThePirateBay+`
-    10. `💬 NAS Subtitles Suite (EN/RU/ES/PT)` (`http://192.168.1.147:8095/stremio/subs/manifest.json`)
+    10. `NAS Subtitles Suite (EN/RU/ES/PT)` (`http://192.168.1.147:8095/stremio/subs/manifest.json`)
     11. `OpenSubtitles v3`
     12. `OpenSubtitles PRO (EN/RU/ES/PT)`
 - **2-Way Scrobbling (`window.__vortxScrobble`)**:
@@ -55,7 +55,7 @@
 
 ---
 
-## 🚀 3. Release Checklist for `webos-repo`
+## 3. Release Checklist for `webos-repo`
 
 1. Package with `ares-package --no-minify <app-dir> -o /tmp/`.
 2. Test directly on the TV first:

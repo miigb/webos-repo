@@ -24,9 +24,9 @@
         "rootRequired": false,
         "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.vortx.tv_0.4.0_all.ipk",
         "ipkHash": {
-          "sha256": "45c6ae3d2c7379d69441bc0215e037b9780cb5d98f2d4a1815231bb5d0d2bb65"
+          "sha256": "cbf356e0578d9703486c27dbec07b169f484766a02dcc05539d07e6c08dbb884"
         },
-        "ipkSize": 251158
+        "ipkSize": 254668
       },
       "pool": "main",
       "shortDescription": "Pre-configured VortX TV v0.4.0 (TV D-Pad Navigation + Stremio/NAS/Plex)",
