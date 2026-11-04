@@ -9,7 +9,7 @@
   "rootRequired": false,
   "ipkUrl": "https://miigb.github.io/webos-repo/packages/com.vortx.tv_0.4.0_all.ipk",
   "ipkHash": {
-    "sha256": "cbf356e0578d9703486c27dbec07b169f484766a02dcc05539d07e6c08dbb884"
+    "sha256": "fcfa37536d8664e12773290d3ea05e788e4e83991c43840c65d5e89eeb66d53a"
   },
-  "ipkSize": 254668
+  "ipkSize": 252704
 }
