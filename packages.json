@@ -38,24 +38,24 @@
       "id": "youtube-leanback-v4-universal-0-8-4",
       "title": "YouTube AdFree (Universal Web v0.8.4)",
       "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.4_all.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/youtube-leanback-v4-universal-0-8-4.manifest.json?v=6fc469de",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/youtube-leanback-v4-universal-0-8-4.manifest.json?v=06fa3fe2",
       "manifest": {
         "id": "youtube.leanback.v4",
         "version": "0.8.4",
         "type": "web",
         "title": "YouTube AdFree (Universal Web v0.8.4)",
-        "appDescription": "Working Universal Web release (v0.8.4) for LG webOS 3.0-6.0 (55UP77006LB). Includes AdBlock, SponsorBlock with skipped-duration display, webOS 6 Spatial Navigation Polyfill speedups, Max Thumbnail Quality (Fast/Original), and YouTube TV UI fixes.",
+        "appDescription": "Working Universal Web release (v0.8.4) for LG webOS 3.0-6.0 with Hover Video Previews (Sound & Resume), AdBlock, SponsorBlock, and webOS 6 Spatial Navigation speedups.",
         "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.4_all.png",
         "sourceUrl": "https://github.com/NicholasBly/youtube-webos",
         "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_0.8.4_all.ipk?v=6fc469de",
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_0.8.4_all.ipk?v=06fa3fe2",
         "ipkHash": {
-          "sha256": "6fc469de968123209ecf4bf3e8b8b50d2caa594facdb6c321db22fe0cb511e29"
+          "sha256": "06fa3fe290cde56cae1e182ecc73138790ba59897bfabdf72e3cac437a1423d1"
         },
-        "ipkSize": 115094
+        "ipkSize": 114874
       },
       "pool": "main",
-      "shortDescription": "Working Universal Web v0.8.4 for webOS 3.0-6.0 (AdBlock + SponsorBlock)",
+      "shortDescription": "Working Universal Web v0.8.4 for webOS 3.0-6.0 (Hover Previews + AdBlock + SponsorBlock)",
       "requirements": {
         "webosRelease": ">=3.0"
       }
