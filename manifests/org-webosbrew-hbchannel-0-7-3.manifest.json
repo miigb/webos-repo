@@ -9,7 +9,7 @@
   "rootRequired": false,
   "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/org.webosbrew.hbchannel_0.7.3_all.ipk",
   "ipkHash": {
-    "sha256": "fa96ae05d6b602ebe26ab5a1fdebd12d7284717973c45391af0362630af78c51"
+    "sha256": "232315be14efe5bf6904fc0804ff8103ac5e29dd5ef2b19fbf81e060f02b29f1"
   },
-  "ipkSize": 1679310
+  "ipkSize": 1679344
 }
