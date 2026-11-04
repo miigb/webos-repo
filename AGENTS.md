@@ -55,14 +55,34 @@
 
 ---
 
-## 3. Release Checklist for `webos-repo`
+## 3. Updating YouTube AdFree (`youtube.leanback.v4` Universal Web) with Hover Video Previews
+
+Whenever a new release of `NicholasBly/youtube-webos` comes out (`0.8.5+`), **NEVER download and publish the upstream `.ipk` unpatched**, because upstream `0.7.7+` replaced `_TV_O18/$firmwareVersion$` with `_TV_$chipSetName$/$firmwareVersion$` (which causes YouTube's server to disable hover video previews on `K7LP` sets) and defaults `forcePreviews` to `"disabled"`.
+
+Always run the automated updater and hover-preview patcher script:
+```bash
+python3 /Users/miguelbrito/Development/DS218/webos-repo/scripts/update_youtube_adfree.py --install --push
+```
+Or for a specific tag (e.g., `v0.8.5` or `v0.8.5-b2`):
+```bash
+python3 /Users/miguelbrito/Development/DS218/webos-repo/scripts/update_youtube_adfree.py --tag v0.8.5 --install --push
+```
+What `scripts/update_youtube_adfree.py` does automatically:
+1. Fetches the Universal Web (`_all.ipk` for webOS 3.0-6.0) asset from `NicholasBly/youtube-webos`.
+2. Patches `appinfo.json` inside `data.tar.gz` to restore `_TV_O18/$firmwareVersion$` in `vendorExtension.userAgent` and `"wolwowlan": true`.
+3. Patches `webOSUserScripts/userScript.js` with a version-agnostic bootstrap IIFE that forces `forcePreviews: "force_on"` and writes a valid non-expiring `{data: true, creation, expiration}` envelope across `yt.leanback.default::inline-playback-enabled` and all signed-in `yt.leanback.<id>::inline-playback-enabled` profile namespaces at startup, 1000ms, and 2600ms.
+4. Updates `/Users/miguelbrito/Downloads/Software/webOS/`, `webos-repo/packages/`, `webos-repo/manifests/`, `apps.json`, and `api/apps.json` (with `?v=<sha256[:8]>` cache-busters so Homebrew Channel never hits a stale GitHub Pages cache), installs onto the TV, and pushes to GitHub.
+
+---
+
+## 4. Release Checklist for `webos-repo`
 
 1. Package with `ares-package --no-minify <app-dir> -o /tmp/`.
 2. Test directly on the TV first:
    ```bash
-   ares-setup-device -m tv -i "host=192.168.1.137"
+   ares-setup-device -m tv -i "host=192.168.1.144"
    ares-install -d tv /tmp/<package>.ipk
    ares-launch -d tv <app-id>
    ```
-3. Copy `.ipk` to `packages/`, compute `shasum -a 256` and `stat -f%z`, update `manifests/<id>.manifest.json`, `apps.json`, and `index.html`.
+3. Copy `.ipk` to `packages/`, compute `shasum -a 256` and `stat -f%z`, update `manifests/<id>.manifest.json`, `apps.json`, `api/apps.json` (append `?v=<sha256[:8]>` to `ipkUrl` and `manifestUrl`), and `index.html`.
 4. Commit and push to `origin main` (`https://github.com/miigb/webos-repo.git`).
