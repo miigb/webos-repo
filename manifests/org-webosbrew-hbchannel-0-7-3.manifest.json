@@ -7,7 +7,7 @@
   "iconUri": "https://miigb.github.io/webos-repo/icons/org.webosbrew.hbchannel.png",
   "sourceUrl": "https://github.com/miigb/webos-repo",
   "rootRequired": false,
-  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/org.webosbrew.hbchannel_0.7.3_all.ipk",
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/org.webosbrew.hbchannel_0.7.3_all.ipk?v=232315be",
   "ipkHash": {
     "sha256": "232315be14efe5bf6904fc0804ff8103ac5e29dd5ef2b19fbf81e060f02b29f1"
   },

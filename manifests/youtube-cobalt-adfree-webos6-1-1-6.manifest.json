@@ -7,7 +7,7 @@
   "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_1.1.6_arm.png",
   "sourceUrl": "https://github.com/miigb/webos-repo",
   "rootRequired": false,
-  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_1.1.6_arm.ipk",
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_1.1.6_arm.ipk?v=30e26396",
   "ipkHash": {
     "sha256": "30e2639678dd33555c113dec5887a03c4e40d460b9c85e5771255905be254f4c"
   },

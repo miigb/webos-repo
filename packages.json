@@ -12,7 +12,7 @@
       "id": "com-vortx-tv-0-4-0",
       "title": "VortX TV",
       "iconUri": "https://miigb.github.io/webos-repo/icons/com.vortx.tv.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/com-vortx-tv-0-4-0.manifest.json",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/com-vortx-tv-0-4-0.manifest.json?v=fcfa3753",
       "manifest": {
         "id": "com.vortx.tv",
         "version": "0.4.0",
@@ -22,7 +22,7 @@
         "iconUri": "https://miigb.github.io/webos-repo/icons/com.vortx.tv.png",
         "sourceUrl": "https://github.com/miigb/webos-repo",
         "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.vortx.tv_0.4.0_all.ipk",
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.vortx.tv_0.4.0_all.ipk?v=fcfa3753",
         "ipkHash": {
           "sha256": "fcfa37536d8664e12773290d3ea05e788e4e83991c43840c65d5e89eeb66d53a"
         },
@@ -38,7 +38,7 @@
       "id": "youtube-leanback-v4-universal-0-8-4",
       "title": "YouTube AdFree (Universal Web v0.8.4)",
       "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.4_all.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/youtube-leanback-v4-universal-0-8-4.manifest.json",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/youtube-leanback-v4-universal-0-8-4.manifest.json?v=6fc469de",
       "manifest": {
         "id": "youtube.leanback.v4",
         "version": "0.8.4",
@@ -48,7 +48,7 @@
         "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.4_all.png",
         "sourceUrl": "https://github.com/NicholasBly/youtube-webos",
         "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_0.8.4_all.ipk",
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_0.8.4_all.ipk?v=6fc469de",
         "ipkHash": {
           "sha256": "6fc469de968123209ecf4bf3e8b8b50d2caa594facdb6c321db22fe0cb511e29"
         },
@@ -64,7 +64,7 @@
       "id": "lampa-tv-2-3-0",
       "title": "Lampa",
       "iconUri": "https://miigb.github.io/webos-repo/icons/lampa.tv.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/lampa-tv-2-3-0.manifest.json",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/lampa-tv-2-3-0.manifest.json?v=04d204f5",
       "manifest": {
         "id": "lampa.tv",
         "version": "2.3.0",
@@ -74,7 +74,7 @@
         "iconUri": "https://miigb.github.io/webos-repo/icons/lampa.tv.png",
         "sourceUrl": "https://github.com/miigb/webos-repo",
         "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/lampa.tv_2.3.0_all.ipk",
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/lampa.tv_2.3.0_all.ipk?v=04d204f5",
         "ipkHash": {
           "sha256": "04d204f5d7412351843d1eb0cab25fdd65f44abff2e20188b41ee24c2e00aa87"
         },
@@ -90,7 +90,7 @@
       "id": "com-doorbell-pip-1-1-0",
       "title": "Doorbell PiP Overlay",
       "iconUri": "https://miigb.github.io/webos-repo/icons/com.doorbell.pip.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/com-doorbell-pip-1-1-0.manifest.json",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/com-doorbell-pip-1-1-0.manifest.json?v=eea828b7",
       "manifest": {
         "id": "com.doorbell.pip",
         "version": "1.1.0",
@@ -100,7 +100,7 @@
         "iconUri": "https://miigb.github.io/webos-repo/icons/com.doorbell.pip.png",
         "sourceUrl": "https://github.com/miigb/webos-repo",
         "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.doorbell.pip_1.1.0_all.ipk",
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.doorbell.pip_1.1.0_all.ipk?v=eea828b7",
         "ipkHash": {
           "sha256": "eea828b7a33a38bd88cacbbe76917e445b4c572dd98a802957722a9ec1ff6183"
         },
@@ -116,7 +116,7 @@
       "id": "space-nuvio-webos-1-2-3",
       "title": "Nuvio TV",
       "iconUri": "https://miigb.github.io/webos-repo/icons/space.nuvio.webos.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/space-nuvio-webos-1-2-3.manifest.json",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/space-nuvio-webos-1-2-3.manifest.json?v=bce3af5d",
       "manifest": {
         "id": "space.nuvio.webos",
         "version": "1.2.3",
@@ -126,7 +126,7 @@
         "iconUri": "https://miigb.github.io/webos-repo/icons/space.nuvio.webos.png",
         "sourceUrl": "https://github.com/NuvioMedia/NuvioTVWebOS",
         "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/space.nuvio.webos_1.2.3_all.ipk",
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/space.nuvio.webos_1.2.3_all.ipk?v=bce3af5d",
         "ipkHash": {
           "sha256": "bce3af5d96ecf0207ddf40dd1a179142ad9fcb98304528ae2a55c27e91512bb0"
         },
@@ -142,7 +142,7 @@
       "id": "org-webosbrew-hbchannel-0-7-3",
       "title": "Homebrew Channel (Custom Repo Pre-Configured)",
       "iconUri": "https://miigb.github.io/webos-repo/icons/org.webosbrew.hbchannel.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/org-webosbrew-hbchannel-0-7-3.manifest.json",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/org-webosbrew-hbchannel-0-7-3.manifest.json?v=232315be",
       "manifest": {
         "id": "org.webosbrew.hbchannel",
         "version": "0.7.3",
@@ -152,7 +152,7 @@
         "iconUri": "https://miigb.github.io/webos-repo/icons/org.webosbrew.hbchannel.png",
         "sourceUrl": "https://github.com/miigb/webos-repo",
         "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/org.webosbrew.hbchannel_0.7.3_all.ipk",
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/org.webosbrew.hbchannel_0.7.3_all.ipk?v=232315be",
         "ipkHash": {
           "sha256": "232315be14efe5bf6904fc0804ff8103ac5e29dd5ef2b19fbf81e060f02b29f1"
         },

@@ -7,7 +7,7 @@
   "iconUri": "https://miigb.github.io/webos-repo/icons/com.cobalt.youtube.adfree_1.0.0_arm.png",
   "sourceUrl": "https://github.com/miigb/webos-repo",
   "rootRequired": false,
-  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.cobalt.youtube.adfree_1.0.0_arm.ipk",
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.cobalt.youtube.adfree_1.0.0_arm.ipk?v=1e7bb33f",
   "ipkHash": {
     "sha256": "1e7bb33ff3c0cc7f475101a713dcc82e0494a56bfa5e8885ff1381fee4232bd7"
   },

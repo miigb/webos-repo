@@ -7,7 +7,7 @@
   "iconUri": "https://miigb.github.io/webos-repo/icons/lampa.tv.png",
   "sourceUrl": "https://github.com/miigb/webos-repo",
   "rootRequired": false,
-  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/lampa.tv_2.3.0_all.ipk",
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/lampa.tv_2.3.0_all.ipk?v=04d204f5",
   "ipkHash": {
     "sha256": "04d204f5d7412351843d1eb0cab25fdd65f44abff2e20188b41ee24c2e00aa87"
   },

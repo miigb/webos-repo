@@ -7,7 +7,7 @@
   "iconUri": "https://miigb.github.io/webos-repo/icons/com.vortx.tv.png",
   "sourceUrl": "https://github.com/miigb/webos-repo",
   "rootRequired": false,
-  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.vortx.tv_0.4.0_all.ipk",
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.vortx.tv_0.4.0_all.ipk?v=fcfa3753",
   "ipkHash": {
     "sha256": "fcfa37536d8664e12773290d3ea05e788e4e83991c43840c65d5e89eeb66d53a"
   },
