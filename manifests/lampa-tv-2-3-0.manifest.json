@@ -1,0 +1,15 @@
+{
+  "id": "lampa.tv",
+  "version": "2.3.0",
+  "type": "web",
+  "title": "Lampa",
+  "appDescription": "Lampa Smart TV media catalog for LG webOS. Interfaces with Synology DS218 TorrServer Matrix (192.168.1.147:8090) and Unified Media Bridge (192.168.1.147:8095).",
+  "iconUri": "https://miigb.github.io/webos-repo/icons/lampa.tv.png",
+  "sourceUrl": "https://github.com/miigb/webos-repo",
+  "rootRequired": false,
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/lampa.tv_2.3.0_all.ipk",
+  "ipkHash": {
+    "sha256": "04d204f5d7412351843d1eb0cab25fdd65f44abff2e20188b41ee24c2e00aa87"
+  },
+  "ipkSize": 6372920
+}

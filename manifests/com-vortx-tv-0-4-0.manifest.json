@@ -3,11 +3,11 @@
   "version": "0.4.0",
   "type": "web",
   "title": "VortX TV",
-  "appDescription": "Pre-configured 10-foot VortX TV app (Stremio Cloud, Synology NAS, Plex Library, 4-Lang Subtitles, Zero-Scrollbar TV Navigation)",
+  "appDescription": "Pre-configured VortX Smart TV client for LG webOS 6.0+ (Chrome 79 layout & D-Pad spatial navigation overhaul). Baked-in Stremio Cloud addons & Watch Progress, Synology DS218 NAS & Plex Library Direct Play (192.168.1.147:32400), NAS Stream Booster (192.168.1.147:8095), and Rivulet Torrent/HLS Engine (192.168.1.147:11470).",
   "iconUri": "https://miigb.github.io/webos-repo/icons/com.vortx.tv.png",
-  "sourceUrl": "https://web.vortx.tv/",
+  "sourceUrl": "https://github.com/miigb/webos-repo",
   "rootRequired": false,
-  "ipkUrl": "https://miigb.github.io/webos-repo/packages/com.vortx.tv_0.4.0_all.ipk",
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.vortx.tv_0.4.0_all.ipk",
   "ipkHash": {
     "sha256": "fcfa37536d8664e12773290d3ea05e788e4e83991c43840c65d5e89eeb66d53a"
   },

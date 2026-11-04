@@ -1,9 +1,9 @@
 {
   "paging": {
     "page": 1,
-    "count": 7,
+    "count": 6,
     "maxPage": 1,
-    "itemsTotal": 7,
+    "itemsTotal": 6,
     "prevUrl": null,
     "nextUrl": null
   },
@@ -20,7 +20,7 @@
         "title": "VortX TV",
         "appDescription": "Pre-configured VortX Smart TV client for LG webOS 6.0+ (Chrome 79 layout & D-Pad spatial navigation overhaul). Baked-in Stremio Cloud addons & Watch Progress, Synology DS218 NAS & Plex Library Direct Play (192.168.1.147:32400), NAS Stream Booster (192.168.1.147:8095), and Rivulet Torrent/HLS Engine (192.168.1.147:11470).",
         "iconUri": "https://miigb.github.io/webos-repo/icons/com.vortx.tv.png",
-        "sourceUrl": "https://github.com/VortXTV/VortX",
+        "sourceUrl": "https://github.com/miigb/webos-repo",
         "rootRequired": false,
         "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.vortx.tv_0.4.0_all.ipk",
         "ipkHash": {
@@ -32,6 +32,58 @@
       "shortDescription": "Pre-configured VortX TV v0.4.0 (TV D-Pad Navigation + Stremio/NAS/Plex)",
       "requirements": {
         "webosRelease": ">=4.0"
+      }
+    },
+    {
+      "id": "youtube-leanback-v4-universal-0-8-4",
+      "title": "YouTube AdFree (Universal Web v0.8.4)",
+      "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.4_all.png",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/youtube-leanback-v4-universal-0-8-4.manifest.json",
+      "manifest": {
+        "id": "youtube.leanback.v4",
+        "version": "0.8.4",
+        "type": "web",
+        "title": "YouTube AdFree (Universal Web v0.8.4)",
+        "appDescription": "Working Universal Web release (v0.8.4) for LG webOS 3.0-6.0 (55UP77006LB). Includes AdBlock, SponsorBlock with skipped-duration display, webOS 6 Spatial Navigation Polyfill speedups, Max Thumbnail Quality (Fast/Original), and YouTube TV UI fixes.",
+        "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.4_all.png",
+        "sourceUrl": "https://github.com/NicholasBly/youtube-webos",
+        "rootRequired": false,
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_0.8.4_all.ipk",
+        "ipkHash": {
+          "sha256": "524570a54c391a1f5d40287c9462e9162840193df78e55fcae4c98eaef96eea3"
+        },
+        "ipkSize": 115896
+      },
+      "pool": "main",
+      "shortDescription": "Working Universal Web v0.8.4 for webOS 3.0-6.0 (AdBlock + SponsorBlock)",
+      "requirements": {
+        "webosRelease": ">=3.0"
+      }
+    },
+    {
+      "id": "lampa-tv-2-3-0",
+      "title": "Lampa",
+      "iconUri": "https://miigb.github.io/webos-repo/icons/lampa.tv.png",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/lampa-tv-2-3-0.manifest.json",
+      "manifest": {
+        "id": "lampa.tv",
+        "version": "2.3.0",
+        "type": "web",
+        "title": "Lampa",
+        "appDescription": "Lampa Smart TV media catalog for LG webOS. Interfaces with Synology DS218 TorrServer Matrix (192.168.1.147:8090) and Unified Media Bridge (192.168.1.147:8095).",
+        "iconUri": "https://miigb.github.io/webos-repo/icons/lampa.tv.png",
+        "sourceUrl": "https://github.com/miigb/webos-repo",
+        "rootRequired": false,
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/lampa.tv_2.3.0_all.ipk",
+        "ipkHash": {
+          "sha256": "04d204f5d7412351843d1eb0cab25fdd65f44abff2e20188b41ee24c2e00aa87"
+        },
+        "ipkSize": 6372920
+      },
+      "pool": "main",
+      "shortDescription": "Lampa v2.3.0 Media Catalog (TorrServer + NAS Subtitles)",
+      "requirements": {
+        "webosRelease": ">=3.0"
       }
     },
     {
@@ -87,107 +139,29 @@
       }
     },
     {
-      "id": "youtube-cobalt-adfree-webos6-1-1-6",
-      "title": "YouTube Cobalt AdFree (webOS 6.0 v1.1.6 ARM)",
-      "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_1.1.6_arm.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/youtube-cobalt-adfree-webos6-1-1-6.manifest.json",
+      "id": "org-webosbrew-hbchannel-0-7-3",
+      "title": "Homebrew Channel (Custom Repo Pre-Configured)",
+      "iconUri": "https://miigb.github.io/webos-repo/icons/org.webosbrew.hbchannel.png",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/org-webosbrew-hbchannel-0-7-3.manifest.json",
       "manifest": {
-        "id": "youtube.leanback.v4",
-        "version": "1.1.6",
-        "type": "native",
-        "title": "YouTube Cobalt AdFree (webOS 6.0 v1.1.6 ARM)",
-        "appDescription": "Cobalt Native Ad-Free YouTube verified for webOS 6.5.3 / firmware 03.53.45 (UP77/C1/B1). Full account login, playlists, SponsorBlock, and NO 30s playback cutoff.",
-        "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_1.1.6_arm.png",
-        "sourceUrl": "https://github.com/miigb/webos-repo",
-        "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_1.1.6_arm.ipk",
-        "ipkHash": {
-          "sha256": "30e2639678dd33555c113dec5887a03c4e40d460b9c85e5771255905be254f4c"
-        },
-        "ipkSize": 19617994
-      },
-      "pool": "main",
-      "shortDescription": "Cobalt AdFree for webOS 6.0 (Playlists & Login working)",
-      "requirements": {
-        "webosRelease": ">=6.0"
-      }
-    },
-    {
-      "id": "youtube-leanback-v4-universal-0-8-2",
-      "title": "YouTube AdFree (Universal Web v0.8.2)",
-      "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.2_all.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/youtube-leanback-v4-universal-0-8-2.manifest.json",
-      "manifest": {
-        "id": "youtube.leanback.v4",
-        "version": "0.8.2",
+        "id": "org.webosbrew.hbchannel",
+        "version": "0.7.3",
         "type": "web",
-        "title": "YouTube AdFree (Universal Web v0.8.2)",
-        "appDescription": "Latest ad-free YouTube universal web release (August 2026) with SponsorBlock for webOS 3.0-6.0.",
-        "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.2_all.png",
+        "title": "Homebrew Channel (Custom Repo Pre-Configured)",
+        "appDescription": "webOS Homebrew Channel v0.7.3 pre-configured with https://miigb.github.io/webos-repo/api/apps.json and https://webosappclub.github.io out of the box.",
+        "iconUri": "https://miigb.github.io/webos-repo/icons/org.webosbrew.hbchannel.png",
         "sourceUrl": "https://github.com/miigb/webos-repo",
         "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_0.8.2_all.ipk",
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/org.webosbrew.hbchannel_0.7.3_all.ipk",
         "ipkHash": {
-          "sha256": "4010499f4d489db05ab438ea847dbe003cb77841baca4c66eb860f64a7274fd1"
+          "sha256": "fa96ae05d6b602ebe26ab5a1fdebd12d7284717973c45391af0362630af78c51"
         },
-        "ipkSize": 165952
+        "ipkSize": 1679310
       },
       "pool": "main",
-      "shortDescription": "Latest YouTube AdFree Universal Web v0.8.2",
+      "shortDescription": "Homebrew Channel v0.7.3 with miigb/webos-repo & webosappclub pre-configured",
       "requirements": {
         "webosRelease": ">=3.0"
-      }
-    },
-    {
-      "id": "youtube-leanback-v4-webos22-0-8-2",
-      "title": "YouTube AdFree (webOS 22+ Web v0.8.2)",
-      "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.2_all_webOS22+.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/youtube-leanback-v4-webos22-0-8-2.manifest.json",
-      "manifest": {
-        "id": "youtube.leanback.v4",
-        "version": "0.8.2",
-        "type": "web",
-        "title": "YouTube AdFree (webOS 22+ Web v0.8.2)",
-        "appDescription": "Ad-free YouTube web app optimized for LG webOS 22+ (webOS 7.0+).",
-        "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_0.8.2_all_webOS22+.png",
-        "sourceUrl": "https://github.com/miigb/webos-repo",
-        "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_0.8.2_all_webOS22+.ipk",
-        "ipkHash": {
-          "sha256": "de3cca999eaa6380ab5cfa8e4ac211568e20d57869f1e824b987bd0d66c57be4"
-        },
-        "ipkSize": 84842
-      },
-      "pool": "main",
-      "shortDescription": "YouTube AdFree for webOS 22+ (2022+ TVs)",
-      "requirements": {
-        "webosRelease": ">=7.0"
-      }
-    },
-    {
-      "id": "youtube-leanback-v4-cobalt-1-2-1",
-      "title": "YouTube AdFree (Cobalt Native v1.2.1 ARM)",
-      "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_1.2.1_arm.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/youtube-leanback-v4-cobalt-1-2-1.manifest.json",
-      "manifest": {
-        "id": "youtube.leanback.v4",
-        "version": "1.2.1",
-        "type": "native",
-        "title": "YouTube AdFree (Cobalt Native v1.2.1 ARM)",
-        "appDescription": "Ad-free YouTube client with SponsorBlock based on native Cobalt for ARM webOS 22+ devices.",
-        "iconUri": "https://miigb.github.io/webos-repo/icons/youtube.leanback.v4_1.2.1_arm.png",
-        "sourceUrl": "https://github.com/miigb/webos-repo",
-        "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/youtube.leanback.v4_1.2.1_arm.ipk",
-        "ipkHash": {
-          "sha256": "b24c2b39cc14b5bd222ad031f74711a1978a82dd455a66f1e02048627e10ea12"
-        },
-        "ipkSize": 19720880
-      },
-      "pool": "main",
-      "shortDescription": "Ad-free YouTube (Cobalt Native v1.2.1)",
-      "requirements": {
-        "webosRelease": ">=3.5"
       }
     }
   ]

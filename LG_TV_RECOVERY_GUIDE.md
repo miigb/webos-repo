@@ -27,7 +27,7 @@ If a webOS system update or Developer Mode session expiration wipes your apps:
 | **Model** | LG 55UP77006LB |
 | **webOS SDK Version** | 6.5.3 (board: `K7LP_DVB_EU`) |
 | **Firmware** | 03.53.45 |
-| **IP Address** | `192.168.1.137` *(fallback `192.168.1.132`)* (Wireless) |
+| **IP Address** | `192.168.1.144` *(MAC `70:97:41:b6:ae:f0`, fallback `.137`/`.132`)* (Wireless) |
 | **SSH Port** | `9922` (User: `prisoner`) |
 | **Key Server Port** | `9991` (HTTP endpoint `/webos_rsa`) |
 
@@ -40,9 +40,9 @@ All `.ipk` binaries are version-controlled and preserved in:
 
 | App Name | Package ID | Version | Description & Notes |
 | :--- | :--- | :--- | :--- |
-| **Homebrew Channel** | `org.webosbrew.hbchannel` | `0.7.3` | Sideload installer. **Custom-repacked** to have the Lampa repo (`webosappclub`) pre-configured into default repositories. |
+| **Homebrew Channel** | `org.webosbrew.hbchannel` | `0.7.3` | Sideload installer. **Custom-repacked** with `https://miigb.github.io/webos-repo/api/apps.json` (`https://github.com/miigb/webos-repo`) and `https://webosappclub.github.io` pre-configured into default repositories. |
 | **Lampa** | `lampa.tv` | `2.3.0` | Movie/TV media catalog. Interfaces with Synology TorrServer Matrix (`192.168.1.147:8090`) & Lampa Subtitle Proxy (`192.168.1.147:8095`). |
-| **YouTube AdFree** | `youtube.leanback.v4` | `0.8.2` | Ad-free YouTube player with SponsorBlock integration. |
+| **YouTube AdFree** | `youtube.leanback.v4` | `0.8.4` | Universal Web flavor (`youtube.leanback.v4_0.8.4_all.ipk` from `NicholasBly/youtube-webos` for webOS 3.0-6.0) with AdBlock & SponsorBlock. *(Note: Only use the Universal Web `_all.ipk` flavor on this TV; do not use `_webOS22+` or Cobalt `_arm` flavors).* |
 | **Doorbell PiP** | `com.doorbell.pip` | `1.1.0` | Picture-in-picture camera overlay from Home Assistant / Synology media stack. |
 | **Nuvio TV** | `space.nuvio.webos` | `1.2.3` | Lightweight, native media center & streaming library with Stremio add-on ecosystem. |
 | **VortX TV** | `com.vortx.tv` | `0.4.0` | Native 10-foot VortX TV streaming app with auto-bootstrapped Stremio Cloud, native Plex (`192.168.1.147:32400`), Synology DS218 Stremio Engine (`192.168.1.147:11470`), and Chrome 79 spatial D-Pad navigation. |

@@ -17,19 +17,16 @@ Custom repository for LG Smart TVs running webOS with **Homebrew Channel**.
 
 ---
 
-## Included Packages
+## Included Packages (Active Catalog in `apps.json`)
 
-| App | Version | Architecture / Target | Release Date | Size |
+| App | Package File | Version | Architecture / Target | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| **YouTube AdFree (webOS 22+)** | `0.8.2` | webOS 22+ (2022+ TVs) | **Aug 12, 2026** | 84.8 KB |
-| **YouTube AdFree (Universal)** | `0.8.2` | webOS 3.0 - 6.0 | **Aug 12, 2026** | 166 KB |
-| **YouTube AdFree (Cobalt Native)** | `1.2.1` | ARM Native (Fastest) | Stable | 19.7 MB |
-| **YouTube Cobalt AdFree** | `1.0.0` | ARM Native | Stable | 41.6 MB |
-| **YouTube AdFree (Legacy)** | `0.5.3` | Legacy webOS | Fallback | 479.7 KB |
-| **Doorbell PiP** | `1.1.0` | Universal webOS | Sep 7, 2026 | 98.2 KB |
-| **Lampa** | `2.3.0` | Universal webOS | Sep 21, 2026 | 6.4 MB |
-| **Nuvio TV** | `1.2.3` | Universal webOS | Oct 6, 2026 | 6.6 MB |
-| **VortX TV (Pre-Configured)** | `0.4.0` | Universal webOS (Chrome 79+ Transpiled, Stremio/NAS/Plex Baked-In) | Oct 17, 2026 | 248.7 KB |
+| **VortX TV (Pre-Configured)** | `com.vortx.tv_0.4.0_all.ipk` | `0.4.0` | Universal webOS (Chrome 79+) | Baked-in Stremio Cloud, Synology NAS (`:8095` / `:11470`), and Plex (`:32400`) |
+| **YouTube AdFree (Universal Web)** | `youtube.leanback.v4_0.8.4_all.ipk` | `0.8.4` | webOS 3.0 - 6.0 (`_all.ipk`) | **Verified working flavor** on LG `55UP77006LB` (from `NicholasBly/youtube-webos`) |
+| **Lampa** | `lampa.tv_2.3.0_all.ipk` | `2.3.0` | Universal webOS | Connected to NAS TorrServer (`:8090`) & Subtitle Proxy (`:8095`) |
+| **Doorbell PiP** | `com.doorbell.pip_1.1.0_all.ipk` | `1.1.0` | Universal webOS | Multi-camera (Ring + Eufy) Picture-in-Picture overlay |
+| **Nuvio TV** | `space.nuvio.webos_1.2.3_all.ipk` | `1.2.3` | Universal webOS | Native media center with Stremio addon support |
+| **Homebrew Channel (Custom)** | `org.webosbrew.hbchannel_0.7.3_all.ipk` | `0.7.3` | Universal webOS | Pre-configured with `https://miigb.github.io/webos-repo/api/apps.json` & `webosappclub` |
 
 ---
 

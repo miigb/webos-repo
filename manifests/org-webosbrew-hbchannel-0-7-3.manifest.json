@@ -1,0 +1,15 @@
+{
+  "id": "org.webosbrew.hbchannel",
+  "version": "0.7.3",
+  "type": "web",
+  "title": "Homebrew Channel (Custom Repo Pre-Configured)",
+  "appDescription": "webOS Homebrew Channel v0.7.3 pre-configured with https://miigb.github.io/webos-repo/api/apps.json and https://webosappclub.github.io out of the box.",
+  "iconUri": "https://miigb.github.io/webos-repo/icons/org.webosbrew.hbchannel.png",
+  "sourceUrl": "https://github.com/miigb/webos-repo",
+  "rootRequired": false,
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/org.webosbrew.hbchannel_0.7.3_all.ipk",
+  "ipkHash": {
+    "sha256": "fa96ae05d6b602ebe26ab5a1fdebd12d7284717973c45391af0362630af78c51"
+  },
+  "ipkSize": 1679310
+}
