@@ -38,7 +38,7 @@
       "id": "com-redphx-better-xcloud-6-2-2",
       "title": "Xbox Cloud Gaming",
       "iconUri": "https://miigb.github.io/webos-repo/icons/com.redphx.better-xcloud.png",
-      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/com-redphx-better-xcloud-6-2-2.manifest.json?v=bf6a4c05",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/com-redphx-better-xcloud-6-2-2.manifest.json?v=856d9147",
       "manifest": {
         "id": "com.redphx.better-xcloud",
         "version": "6.2.2",
@@ -48,11 +48,11 @@
         "iconUri": "https://miigb.github.io/webos-repo/icons/com.redphx.better-xcloud.png",
         "sourceUrl": "https://github.com/redphx/better-xcloud",
         "rootRequired": false,
-        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.redphx.better-xcloud_6.2.2_all.ipk?v=bf6a4c05",
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.redphx.better-xcloud_6.2.2_all.ipk?v=856d9147",
         "ipkHash": {
-          "sha256": "bf6a4c05f22c305cf12f52406a53de4b62692744ea14ccd612791e5ddc888f4e"
+          "sha256": "856d91478c14df194fa568255ce0903f441a5efdd6919b16d7890cdcc2a2bb28"
         },
-        "ipkSize": 9208
+        "ipkSize": 18532
       },
       "pool": "main",
       "shortDescription": "Xbox Cloud Gaming for LG webOS 6.0+ (Chrome 79 NAS bridge)",
