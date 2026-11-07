@@ -22,6 +22,7 @@ Custom repository for LG Smart TVs running webOS with **Homebrew Channel**.
 | App | Package File | Version | Architecture / Target | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | **VortX TV (Pre-Configured)** | `com.vortx.tv_0.4.0_all.ipk` | `0.4.0` | Universal webOS (Chrome 79+) | Baked-in Stremio Cloud, Synology NAS (`:8095` / `:11470`), and Plex (`:32400`) |
+| **Xbox Cloud Gaming** | `com.redphx.better-xcloud_6.2.2_all.ipk` | `6.2.2` | Universal webOS (Chrome 79+) | Real-time transpilation via Synology NAS bridge (`:8097`/`:8095`) |
 | **YouTube AdFree (Universal Web)** | `youtube.leanback.v4_0.8.4_all.ipk` | `0.8.4` | webOS 3.0 - 6.0 (`_all.ipk`) | **Verified working flavor** on LG `55UP77006LB` (from `NicholasBly/youtube-webos`) |
 | **Lampa** | `lampa.tv_2.3.0_all.ipk` | `2.3.0` | Universal webOS | Connected to NAS TorrServer (`:8090`) & Subtitle Proxy (`:8095`) |
 | **Doorbell PiP** | `com.doorbell.pip_1.1.0_all.ipk` | `1.1.0` | Universal webOS | Multi-camera (Ring + Eufy) Picture-in-Picture overlay |

@@ -1,0 +1,15 @@
+{
+  "id": "com.redphx.better-xcloud",
+  "version": "6.2.2",
+  "type": "web",
+  "title": "Xbox Cloud Gaming",
+  "appDescription": "Xbox Cloud Gaming (Game Pass Ultimate Cloud Gaming) client for LG webOS 6.0+ (Chrome 79 transpilation & real-time polyfills via Synology DS218 NAS bridge on port 8097/8095). Supports TV D-Pad spatial navigation and Bluetooth gamepads.",
+  "iconUri": "https://miigb.github.io/webos-repo/icons/com.redphx.better-xcloud.png",
+  "sourceUrl": "https://github.com/redphx/better-xcloud",
+  "rootRequired": false,
+  "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.redphx.better-xcloud_6.2.2_all.ipk?v=bf6a4c05",
+  "ipkHash": {
+    "sha256": "bf6a4c05f22c305cf12f52406a53de4b62692744ea14ccd612791e5ddc888f4e"
+  },
+  "ipkSize": 9208
+}

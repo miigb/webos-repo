@@ -1,9 +1,9 @@
 {
   "paging": {
     "page": 1,
-    "count": 6,
+    "count": 7,
     "maxPage": 1,
-    "itemsTotal": 6,
+    "itemsTotal": 7,
     "prevUrl": null,
     "nextUrl": null
   },
@@ -30,6 +30,32 @@
       },
       "pool": "main",
       "shortDescription": "Pre-configured VortX TV v0.4.0 (TV D-Pad Navigation + Stremio/NAS/Plex)",
+      "requirements": {
+        "webosRelease": ">=4.0"
+      }
+    },
+    {
+      "id": "com-redphx-better-xcloud-6-2-2",
+      "title": "Xbox Cloud Gaming",
+      "iconUri": "https://miigb.github.io/webos-repo/icons/com.redphx.better-xcloud.png",
+      "manifestUrl": "https://miigb.github.io/webos-repo/manifests/com-redphx-better-xcloud-6-2-2.manifest.json?v=bf6a4c05",
+      "manifest": {
+        "id": "com.redphx.better-xcloud",
+        "version": "6.2.2",
+        "type": "web",
+        "title": "Xbox Cloud Gaming",
+        "appDescription": "Xbox Cloud Gaming (Game Pass Ultimate Cloud Gaming) client for LG webOS 6.0+ (Chrome 79 transpilation & real-time polyfills via Synology DS218 NAS bridge on port 8097/8095). Supports TV D-Pad spatial navigation and Bluetooth gamepads.",
+        "iconUri": "https://miigb.github.io/webos-repo/icons/com.redphx.better-xcloud.png",
+        "sourceUrl": "https://github.com/redphx/better-xcloud",
+        "rootRequired": false,
+        "ipkUrl": "https://raw.githubusercontent.com/miigb/webos-repo/main/packages/com.redphx.better-xcloud_6.2.2_all.ipk?v=bf6a4c05",
+        "ipkHash": {
+          "sha256": "bf6a4c05f22c305cf12f52406a53de4b62692744ea14ccd612791e5ddc888f4e"
+        },
+        "ipkSize": 9208
+      },
+      "pool": "main",
+      "shortDescription": "Xbox Cloud Gaming for LG webOS 6.0+ (Chrome 79 NAS bridge)",
       "requirements": {
         "webosRelease": ">=4.0"
       }
